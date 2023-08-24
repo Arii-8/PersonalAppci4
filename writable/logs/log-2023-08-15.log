@@ -1,0 +1,220 @@
+INFO - 2023-08-15 02:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 02:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-15 03:10:42 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 2 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-08-15 03:11:44 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 2 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([...])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [...])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-08-15 03:21:19 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 2 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-08-15 03:24:49 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 2 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([...])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [...])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-08-15 03:27:43 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 2 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([...])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [...])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-08-15 03:32:18 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 2 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([...])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [...])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2023-08-15 03:36:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\PersonalAppci4\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\PersonalAppci4\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-08-15 03:43:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\PersonalAppci4\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\PersonalAppci4\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2023-08-15 03:50:53 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 2 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([...])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [...])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+ERROR - 2023-08-15 03:51:16 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\PersonalAppci4\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#8 C:\xampp\htdocs\PersonalAppci4\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#9 C:\xampp\htdocs\PersonalAppci4\spark(97): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2023-08-15 03:51:58 --> default is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 SYSTEMPATH\Common.php(362): CodeIgniter\Database\Config::connect('default', true)
+ 2 SYSTEMPATH\Database\MigrationRunner.php(151): db_connect(null)
+ 3 SYSTEMPATH\Config\Services.php(411): CodeIgniter\Database\MigrationRunner->__construct(null, null)
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations(Object(Config\Migrations), null, false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('migrations', [...])
+ 6 SYSTEMPATH\Config\Services.php(406): CodeIgniter\Config\BaseService::getSharedInstance('migrations', null, null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::migrations()
+ 8 SYSTEMPATH\Commands\Database\Migrate.php(69): CodeIgniter\Config\BaseService::__callStatic('migrations', [])
+ 9 SYSTEMPATH\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run([...])
+10 SYSTEMPATH\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', [...])
+11 ROOTPATH\spark(97): CodeIgniter\CLI\Console->run()
+INFO - 2023-08-15 04:29:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 04:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 04:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 04:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 04:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 04:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 04:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-15 04:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
